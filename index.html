@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="navbar">
+                <h3 class="logo_text">RecipeList</h3>
+            </div>
+
+            <div class="header-block">
+                <div class="left-col">
+                    <h3 class="header">Different Recipes from different cousines all over the world</h3>
+                    <p class="sub-header">Please check out the recipes and discover more opportunities to surprise your family, friends and youself</p>
+                    <a href="#searchField" class="btn">Search</a>
+                </div>
+                <div class="right-col">
+                    <h3 class="slider-header">Most Rated</h3>
+                    <div class="button-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2252/2252540.png" alt="" class="btn-icon btn-icon_left">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2252/2252540.png" alt="" class="btn-icon btn-icon_right">
+                    </div>
+                    <div class="slider">
+                        <div class="slider__block slider__block_one">
+                           <img src="https://www.simplyrecipes.com/thmb/OR4scY3zn-d5RDuic4CAOOJ1604=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__03__Mexican-Avocado-Toast-1-eaca457dce4545359ca9a844275444c8.jpg" alt="" class="slider-image slider-image_one">
+                        </div>
+                        <div class="slider__block slider__block_two slider__block_active">
+                           <img src="https://www.simplyrecipes.com/thmb/VvdZ84gnKKyehQi3Iq6io0rx2OA=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__08__Grilled-Cheese-BLT-LEAD-1-9e3e62e6a574457bb8c7532f9db56bd2.jpg" alt="" class="slider-image slider-image_active slider-image_two">
+                           <h4 class="slider__block__header slider__block__header_two">Grilled Cheese BLT</h4>
+                        </div>
+                        <div class="slider__block slider__block_three">
+                           <img src="https://www.simplyrecipes.com/thmb/GAEV3EF-KzgE9UiTBZuRnBdcYLI=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__02__EYF-Kale-Pesto-LEAD-4-67fd9dc1697d4ceb9c852c4efb11c066.jpg" alt="" class="slider-image slider-image_three">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu">
+        <div class="container">
+            <div class="wrapper">
+                <div class="text-block">
+                    <h2 class="header header_menu">Main categories</h2>
+                </div>
+                <div class="list-block">
+                    <p class="list-header">Meal</p>
+                    <ul class="list">
+                        <li class="list__item list__item_one">Breakfast <img src="https://simply-delicious-food.com/wp-content/uploads/2018/10/breakfast-board.jpg" alt="" class="list-image list-image-one"></li>
+                        <li class="list__item list__item_two">Brunch <img src="https://cdn.loveandlemons.com/wp-content/uploads/2019/05/brunch-recipes.jpg" alt="" class="list-image list-image-two"></li>
+                        <li class="list__item list__item_three">Lunch <img src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/health/wp-content/uploads/2022/08/workday_lunch_ideas.jpeg.jpg" alt="" class="list-image list-image-three"></li>
+                        <li class="list__item list__item_four">Dinner <img src="https://images.immediate.co.uk/production/volatile/sites/30/2022/03/chole-recipe-d0b4d29.jpg?resize=960,872?quality=90&resize=556,505" alt="" class="list-image list-image-four"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header__text-block">
+                    <h3 class="header section-header__header">Menu</h3>
+                </div>
+            </div>
+            <input type="text" class="input-field" id="searchField" placeholder="Search ...">
+            <div class="recipe-list">
+                <div class="filter-column">
+                    <h4 class="filter-header">Filters</h4>
+                    <ul class="filter-list">
+                        <li class="filter-item filter-type-item">dairy-free</li>
+                        <li class="filter-item filter-type-item">vegetarian</li>
+                        <li class="filter-item filter-type-item">low carb</li>
+                        <li class="filter-item filter-type-item">quick recipe</li>
+                        <li class="filter-item filter-type-item">nourishing</li>
+                    </ul>
+
+                    <h4 class="filter-header">Sort by</h4>
+                    <ul class="filter-list">
+                        <li class="filter-item sort-type sort-type-alphabet">alphabet</li>
+                        <li class="filter-item sort-type-complexity">complexity</li>
+                    </ul>
+                </div>
+                <div class="list-column">
+                    <div class="recipe-block">
+                        <p class="recipe-block__header">Shakshuka</p>
+                        <div class="stars-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                        </div>
+                        <p class="recipe-description">Eggs simmered in tomato sauce are seasoned with cumin and smoked paprika. Top it with cilantro, feta, and olives then serve it for breakfast, lunch, or dinner.</p>
+                        <p class="filters">nourishing | quick recipe</p>
+                        <img src="https://www.simplyrecipes.com/thmb/wro9TSJKnfadOcg_NiRdu0Vmius=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Shakshuka-Feta-Olives-LEAD-7-e2bc42ab0deb406d9828fbeb9fdf4ef6.jpg" alt="" class="recipe-image">
+                    </div>
+                    <div class="recipe-block"> 
+                        <p class="recipe-block__header">Menemen</p>
+                        <div class="stars-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                        </div>
+                        <p class="recipe-description">Transport yourself to the cafes of Istanbul with menemen. This delicious, quick, and easy scrambled eggs with tomatoes recipe can be served for breakfast, lunch, or dinner.</p>
+                        <p class="filters">nourishing | quick recipe</p>
+                        <img src="https://www.simplyrecipes.com/thmb/bd9xJWdV-1qRfJk1LeIlu6ls-RI=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Menemen-LEAD-09-a6cfe058d5af47519b62c34dce2b637c.jpg" alt="" class="recipe-image">
+                    </div>
+                    <div class="recipe-block">
+                        <p class="recipe-block__header">Zucchini Carrot Bread</p>
+                        <div class="stars-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                        </div>
+                        <p class="recipe-description">This twist on classic zucchini bread adds the sweetness of carrots along with some warm spices and bright citrus. This makes a moist and rich bread perfect for a sweet breakfast or daytime snack.</p>
+                        <p class="filters">dairy-free | vegetarian</p>
+                        <img src="https://www.simplyrecipes.com/thmb/cFkQdMztrHJo6nrFO23PoYBQmVY=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Zucchini-Carrot-Bread-LEAD-05-e615a590826d47c0ab2b6c81d2ba812f.jpg" alt="" class="recipe-image">
+                    </div>
+                    <div class="recipe-block">
+                        <p class="recipe-block__header">Cháo Gà</p>
+                        <div class="stars-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                        </div>
+                        <p class="recipe-description">Cháo gà, a Vietnamese chicken and rice porridge, is comfort in a bowl. Make a giant pot and enjoy it again and again throughout the week.</p>
+                        <p class="filters">vegetarian | low carb</p>
+                        <img src="https://www.simplyrecipes.com/thmb/7gw5dest1DXI2-vZnRxG_v3aFXI=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chao-Ga-LEAD-07-d25a241d5dcd49b88d093d6e62a69517.jpg" alt="" class="recipe-image">
+                    </div>
+                    <div class="recipe-block">
+                        <p class="recipe-block__header">Tamagoyaki</p>
+                        <div class="stars-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                        </div>
+                        <p class="recipe-description">Tamagoyaki is a soft and delicate rolled omelet and a classic Japanese dish. The technique to flip and roll the eggs may look tricky, but if I can do it, you can too!</p>
+                        <p class="filters">vegetarian | low carb | quick recipe</p>
+                        <img src="https://www.simplyrecipes.com/thmb/GGy7a4ApLUox3hKvBlpqOCgjEoE=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Tamagoyaki-LEAD-10-ca5d4495f3184f73969f8f66cf84dc6d.jpg" alt="" class="recipe-image">
+                    </div>
+                    <div class="recipe-block">
+                        <p class="recipe-block__header">Tortellini Salad</p>
+                        <div class="stars-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616489.png" alt="" class="icon-star">
+                        </div>
+                        <p class="recipe-description">You'll want to make a double batch of this tortellini salad—it tastes even better the next day and it's the perfect packed lunch for school or work.</p>
+                        <p class="filters">dairy-free | quick recipe</p>
+                        <img src="https://www.simplyrecipes.com/thmb/pFIQA_-jljDGyK2RTaLd5hfknY0=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Tortellini-LEAD-1-8a494353aca4448eac6fce60a94edeaa.jpg" alt="" class="recipe-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
